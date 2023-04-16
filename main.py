@@ -2,19 +2,18 @@ import random
 MIN = 1
 MAX = 10
 
-def poser_question():
+def play():
     nombre_de_vie = 4
     nombre_magique = random.randint(MIN, MAX)
 
     while nombre_de_vie > 0:
-        print("")
+        print()
         resp = input(f"Devinez le nombre magique, entre {MIN} et {MAX} (il vous reste {nombre_de_vie} vies) : ")
 
         try:
             res = int(resp)
             if res < MIN or res > MAX:
                 print(f"ERRUR: Vous devez rentrer un nombre entre {MIN} et {MAX}.")
-                print("")
             else:
                 if res < nombre_magique:
                     print("Le nombre magique est plus grand")
@@ -29,8 +28,7 @@ def poser_question():
             print("ERREUR: Vous devez écrire un nombre.")
 
     if nombre_de_vie == 0:
-        print(" ")
+        print()
         print(f"Désolé, vous avez perdu, le nombre magique était : {nombre_magique}")
 
-
-poser_question()
+play()
