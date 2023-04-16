@@ -1,6 +1,6 @@
 <br>
 <div align="center">
-  <img height="80px" width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+  <img height="90px" width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
   <img height="80px" src="./img/terminal_icon.png">
 </div>
 
